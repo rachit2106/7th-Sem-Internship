@@ -1,0 +1,163 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+    </head>
+    
+    <body>
+        <header id="header-home1">
+        
+        <div id="logo">
+            <img src="download.png" style="height:300px ;margin-top:-100px">
+        </div>
+        <div>
+       
+        <nav id="navmenu">
+        
+            <ul >
+                <li><a href=index.html>Home</a></li>
+                <li><a href=about.html>About</a></li>
+                <li><a href=project.html>Project</a></li>
+                <li><a href=activities.html>Activities</a></li>
+                <li><a href=blog.html>Blog</a></li>
+                <li><a href=contact.html>Contact us</a></li>
+            </ul> 
+        </nav>
+    </div>
+    </header>
+    <div id="line"></div>
+    <section id="blog1">
+        <div class="blog-1">
+         <div class="hi">   
+            <img src="air.jpg" class="air">
+            <h2 class="ih">Vehicular/Transport Emissions</h2>
+        </div>
+        
+        <p class="meta">
+            <i class="fas fa-user" style="color:white ;"></i>Posted by <strong> Rachit Patel</strong><h3 id="date&time" style="margin-left: 105px; margin-top: 20px;"></h3>
+            
+        </p>
+        <p style="font-size:23px;margin-top:20px ;margin-left: 90px;">The transportation sector is the main contributor of air pollutants in almost every city, but this phenomenon is worse in urban cities (Gurjar, Aardenne, Lelieveld, et al. 2004). This could be due to the increased number of vehicles when compared to the existing infrastructural facilities,<span id="dots">...</span><span id="more" >e.g., roads, fuel stations, an+d the number of passenger terminals provided for public transport. In India, the amount of motorised transport increased from 0.3 million in 1951 to 159.5 million in 2012 (Gurjar, Ravindra, and Nagpure 2016). A significant share of vehicular emissions comes from urban cities, such as Delhi, Mumbai, Bengaluru, and Kolkata. Carbon monoxide (CO), NOX, and NMVOCs are the major pollutants (>80%) from vehicular emissions (Gurjar, Aardenne, Lelieveld, et al. 2004). Other trace emissions include methane (CH4), carbon dioxide (CO2), oxides of sulphur (SOx), and total suspended particles (TSPs)..</span></p>
+<button onclick="myFunction()" id="myBtn" style="margin-left:88px ;margin-top:20px;margin-bottom:15 ;">Read more</button>   
+        </div>
+            
+        </div>
+    </section>
+    <div id="line"></div>
+    <section id="blog1" style="background-color:white;">
+        <div class="blog-1">
+         <div class="hi">   
+            <img src="air2.jpg" class="air">
+            <h2 class="ih">Construction and Demolition Waste</h2>
+        </div>
+        
+        <p class="meta">
+            <i class="fas fa-user" ></i>Posted by <strong>Rachit Patel</strong><h3 id="date&time1" style="margin-left: 105px; margin-top: 20px;"></h3>
+             </p>
+        <p style="font-size:23px;margin-top:20px ;margin-left: 90px;">Another major source of air pollution in India is waste, which is an outcome of construction and demolition activities. Guttikunda and Goel (2013) inferred from their study that around 10,750 tonne of construction waste is generated in Delhi every year<span id="dots1">...</span><span id="more1" style="font-size:23px;display:none ;">Even after the construction phase, these buildings have the potential to be the major contributors of GHG emissions. Nowadays, the increasing interest in green building technologies and the application of green infrastructure and materials during construction could tackle this issue to a large extent, thereby preserving our biodiversity and maintaining cleaner air quality.</span></p>
+        <button onclick="myFunction1()" id="myBtn1" style="margin-left:88px ;margin-top:20px;margin-bottom: 15px;">Read more</button>   
+        </div>
+       
+        </div>
+            
+        </div>
+    </section>
+    <script>
+         function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+        /////
+        function myFunction1() {
+  var dots1 = document.getElementById("dots1");
+  var moreText1 = document.getElementById("more1");
+  var btnText1 = document.getElementById("myBtn1");
+
+  if (dots1.style.display === "none") {
+    dots1.style.display = "inline";
+    btnText1.innerHTML = "Read more"; 
+    moreText1.style.display = "none";
+  } else {
+    dots1.style.display = "none";
+    btnText1.innerHTML = "Read less"; 
+    moreText1.style.display = "inline";
+  }
+}
+/////
+let dt=document.getElementById("date&time")
+dt.innerHTML=Date();
+/////
+let dt1=document.getElementById("date&time1")
+dt1.innerHTML=Date();
+</script>
+<footer class="footer">
+    <div class="footer_container">
+        <div class="row">
+            <div class="footer-col">
+                <h4 style="margin-left:30px ;">company</h4>
+                <div class="bottom-line1" ></div>
+                <pre style="margin-left:70px">
+                9,Ganesh Park-3,
+                Near.Vishwas City-2,
+                Near.I D Patel School,
+                R.C.Technical Road,
+                Ghatlodia,
+                Ahmedabad-380061.
+        </pre>
+            </div>
+            <div class="footer-col">
+                <h4 style="margin-left:30px ;">Navigate</h4>
+                <div class="bottom-line1"></div>
+                <ul class="pages">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="activities.html">Activities</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 style="margin-left:25px ;">follow Me</h4>
+                <div class="bottom-line1"></div>
+                <div class="social-links">
+                    <!-- <a href="https://www.facebook.com/pages/category/Software-Company/SoftCoding-Solutions-101896494770588/"><i class="fab fa-facebook-f"></i></a> -->
+                    <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+                    <a href="https://www.instagram.com/rachitpatel2106/"><i class="fab fa-instagram"></i></a>
+                    <!-- <a href="https://in.linkedin.com/company/softcoding-solutions"><i class="fab fa-linkedin-in"></i></a>
+                </div> -->
+                <br>
+                <!-- <div class="contact-info">
+                    <div>
+                        <i class="fas fa-envelope fa-2x"></i>
+                        <h3>Email</h3>
+                        <a href="mailto:support@softcodingsolutions.com​"
+                            class="btn-dark">support@softcodingsolutions.com​</a>
+
+                    </div>
+                    <br>
+                    <div>
+                        <i class="fas fa-phone fa-2x"></i>
+                        <h3>Phone</h3>
+                        <a href="tel:+918511701589" class="btn-dark">+91 8511701589</a>
+                    </div>
+                </div> -->
+            </div>
+</footer>
+    </body>
+
+</html>

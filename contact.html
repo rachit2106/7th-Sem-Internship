@@ -1,0 +1,136 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header id="header-home1">
+        
+            <div id="logo">
+                <img src="download.png" style="height:300px ;margin-top:-100px">
+            </div>
+            <div>
+           
+            <nav id="navmenu">
+            
+                <ul >
+                    <li><a href=index.html>Home</a></li>
+                    <li><a href=about.html>About</a></li>
+                    <li><a href=project.html>Project</a></li>
+                    <li><a href=activities.html>Activities</a></li>
+                    <li><a href=blog.html>Blog</a></li>
+                    <li><a href=contact.html>Contact us</a></li>
+                </ul> 
+            </nav>
+        </div>
+        </header>
+        <div class="contact">
+            <h1>Contact Me</h1>
+            <div class="bottom-line3"></div>
+            <h3>Here is how you can reach me</h3>
+        </div>
+        <form>
+        <div class="form">
+           
+            <div class="content">
+                <input type="text" required>
+                <label>Name</label>
+            </div>
+            <div class="content">
+                <input type="text" required>
+                <label>Subject</label>
+            </div>
+            <div class="content">
+                <input type="text" required>
+                <label>Email</label>
+            </div>
+            <div class="content">
+                <input type="text" required>
+                <label>Phone no</label>
+            </div>
+            
+        </div>
+        <div class="msgbox">
+            <textarea class="text-input message-input" placeholder="Enter Message" required rows="6" cols="140"></textarea>
+        </div>
+        <button type="submit" class="btn-dark" style="text-align:center ;">Submit</button>
+    </form>
+<div class="address">
+    <div class="add">
+        <i class="fa-solid fa-location-dot icon fa-3x"></i>
+    <h1>Address</h1><br>
+    <pre style="font-size:20px">
+        9,Ganesh Park-3,
+        Near.Vishwas City-2,
+        Near.I D Patel School,
+        R.C.Technical Road,
+        Ghatlodia,
+        Ahmedabad-380061.</pre>
+    </div>
+        <div class="maps"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.4448880585146!2d72.5314785147706!3d23.080804484923537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e8347f430c44f%3A0xc08dd280401c1424!2sGanesh%20Park%20Rd%2C%20Vishwas%20City%201%2C%20Chanakyapuri%2C%20Ahmedabad%2C%20Gujarat%20380061!5e0!3m2!1sen!2sin!4v1658311996815!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="gmap"></iframe>
+        </div>
+</div>
+<div class="msg">
+    <h1>
+        Lets start your next Project
+    </h1>
+</div>
+<footer class="footer">
+    <div class="footer_container">
+        <div class="row">
+            <div class="footer-col">
+                <h4 style="margin-left:30px ;">company</h4>
+                <div class="bottom-line1" ></div>
+                <pre style="margin-left:70px">
+                9,Ganesh Park-3,
+                Near.Vishwas City-2,
+                Near.I D Patel School,
+                R.C.Technical Road,
+                Ghatlodia,
+                Ahmedabad-380061.
+        </pre>
+            </div>
+            <div class="footer-col">
+                <h4 style="margin-left:30px ;">Navigate</h4>
+                <div class="bottom-line1"></div>
+                <ul class="pages">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="activities.html">Activities</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 style="margin-left:20px ;">follow Me</h4>
+                <div class="bottom-line1"></div>
+                <div class="social-links">
+                    <!-- <a href="https://www.facebook.com/pages/category/Software-Company/SoftCoding-Solutions-101896494770588/"><i class="fab fa-facebook-f"></i></a> -->
+                    <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+                    <a href="https://www.instagram.com/rachitpatel2106/"><i class="fab fa-instagram"></i></a>
+                    <!-- <a href="https://in.linkedin.com/company/softcoding-solutions"><i class="fab fa-linkedin-in"></i></a> -->
+                </div>
+                <br>
+
+                    
+
+            </div>
+</footer>
+<script>
+    const labels = document.querySelectorAll( "label" );
+
+    labels.forEach( function( label ) {
+        label.innerHTML = label.innerText
+            .split( "" )
+            .map(function(letter, idx){
+        return `<span style='transition-delay:${idx * 80}ms'>${letter}</span>`
+    })
+            .join( "" );
+    } );
+</script>
+
+    </body>
+</html>
